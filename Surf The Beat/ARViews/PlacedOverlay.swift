@@ -87,6 +87,7 @@ struct PlacedOverlay: View {
                         .frame(width: proxy.size.width/4.0, height: proxy.size.height/12.0, alignment: .center)
                     }
                 }
+                .frame(height: proxy.size.height/10)
                 .padding()
             }
         }
